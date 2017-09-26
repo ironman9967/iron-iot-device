@@ -32,6 +32,4 @@ createHttpServer({ logger, port })
 		logger.next(`${process.title} started`)
 		logger.next(`server up on ${port}`)
 	}))
-	// register service
-	// .then(() => rp())
 	.catch(console.error)
